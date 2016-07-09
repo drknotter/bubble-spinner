@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<script type="application/javascript" src="bubble_spinner.js"></script>
+		<style type="text/css">
+			canvas { 
+			  border: solid 1px black;
+			}
+		</style>
+	</head>
+	<body onload="init();" onkeypress="key_press(event);">
+		<center>
+			<canvas id="canvas" width="400" height="500" onmousemove="mouse_move(event);" onclick="mouse_click(event);" onmousedown="mouse_down(event);" onmouseup="mouse_up(event);">
+				Your browser does not support the HTML5 canvas element.
+			</canvas>
+		</center>
+	</body>
+</html>
